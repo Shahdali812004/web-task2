@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+.parent{
+    background-image: url(./images/sailboat.jpg);
+    height: 100vh ;
+    background-size: cover;
+    
+      
+}
+.nav-bar{
+     background-color: black;
+    height: 60px;
+  
+}
+.nav-logo{
+    /* background-color: rgb(63, 186, 145); */
+    width: 30%;
+    float: left;
+    
+}
+.nav-content{
+     /* background-color: rgb(28, 181, 181);  */
+    width: 40%;
+    height: 100%;
+    float:right;
+
+}
+.nav-logo img{
+    width: 100px;
+    height: 59px;
+    padding-left: 20px;
+}
+.clearfix{
+    clear: both;
+}
+.nav-bar .nav-content ul li{
+    /* background-color: antiquewhite;  */
+    list-style: none;
+    float: left;
+    padding: 5px 25px;
+    font-size: large;
+}
+.nav-bar .nav-content ul li a{
+    text-decoration: none;
+}
+.parent div{
+    text-align: center;
+    padding: 100px 300px;
+}
+ button{
+    font-weight:bolder;
+   padding: 15px 25px;
+    border-radius: 30px; 
+}
+.page2{
+    background-color: black;
+    margin-bottom: 15px;
+    
+}
+.our-team{
+    
+    width: 25%; 
+    float:left;
+    text-align: center;
+}
+.page2 .our-team img{
+
+    border-radius: 50%;
+    border:solid black;
+   outline: 15px solid;
+   outline-width: thick;
+
+}
+.page2 .title{
+ color: darkgreen;
+    text-align: center;
+}
+.page2 .our-team h1{
+    color: azure;
+}
+ .achievement .achievement-photo{
+    
+    width: 33%;
+    float: left;
+    text-align: center;
+    
+}
+.achievement .achievement-photo img{
+    width: 70%;
+    height: 150px;
+    border-left: 15px solid;
+    margin-top: 20px;
+    
+}
+.achievement .Q{
+    color: chocolate;
+    text-align: center;
+}
+
+
